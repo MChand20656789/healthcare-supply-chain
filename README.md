@@ -1,6 +1,6 @@
 # Healthcare Supply Chain Inventory & Reconciliation System
 
-A simulated healthcare supply-chain inventory and reconciliation system built in **Google Sheets** to demonstrate practical skills in inventory tracking, receiving, usage monitoring, physical counts, reconciliation, Min/Max inventory controls, replenishment planning, and quality assurance.
+A simulated healthcare supply-chain inventory and reconciliation system built in **Excel** to demonstrate practical skills in inventory tracking, receiving, usage monitoring, physical counts, reconciliation, Min/Max inventory controls, replenishment planning, and quality assurance.
 
 > **Important:** This is a simulated portfolio project using fictional healthcare supply data. It does not use confidential data from any hospital, healthcare organization, or employer.
 
@@ -48,8 +48,8 @@ The system is designed around common operational tasks such as:
 
 ## Tools
 
-* **Google Sheets**
-* Google Sheets formulas
+* **Microsoft Excel**
+* Excel formulas
 * Data validation / dropdown controls
 * Conditional formatting
 * VLOOKUP
@@ -131,7 +131,7 @@ Each item has a simulated:
 
 The `Status` column identifies whether an item has fallen below its minimum level.
 
-Google Sheets formula:
+Excel formula:
 
 ```excel
 =IF(H2<F2,"REORDER","OK")
@@ -763,7 +763,7 @@ This project demonstrates practical experience with:
 
 ### Spreadsheet Skills
 
-* Google Sheets
+* Excel
 * VLOOKUP
 * SUMIF
 * IF / IFERROR
